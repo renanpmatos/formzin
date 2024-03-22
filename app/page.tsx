@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { RightArrow, DownArrow } from "./icons";
 import "./home.css";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <main className="">
+      <Navbar />
       <article className="grid lg:grid-cols-2">
         <div className="px-8 py-20 md:px-20 lg:py-48">
           <h1 className="text-5xl font-semibold text-transparent md:text-6xl gradient">
